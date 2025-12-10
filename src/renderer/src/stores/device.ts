@@ -149,6 +149,11 @@ export const useDeviceStore = defineStore('devices', () => {
     return devices.value.get(address)
   }
 
+  const deleteDevice = async (address: string): Promise<void> => {
+    devices.value.delete(address)
+    await saveDevicesToFile()
+  }
+
   const numberOfDetectedDevices = (): number => {
     return detectedDevices.value
   }
@@ -162,6 +167,7 @@ export const useDeviceStore = defineStore('devices', () => {
     fetchDevices,
     loading,
     numberOfDetectedDevices,
-    getDevice
+    getDevice,
+    deleteDevice
   }
 })
