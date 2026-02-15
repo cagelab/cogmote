@@ -3,10 +3,21 @@ import { DeviceInfo } from '@/types/device'
 import { useTrialDataStore } from '@/stores/trialData'
 import { computed, ref, watch, onMounted, nextTick } from 'vue'
 import { TableV2Instance } from 'element-plus'
+import { useRouter } from 'vue-router'
+import { Maximize2 } from 'lucide-vue-next'
+import { Button } from '@/components/ui/button'
 
-const props = defineProps<{
-  device: DeviceInfo
-}>()
+const props = withDefaults(
+  defineProps<{
+    device: DeviceInfo
+    hideMaximizeButton?: boolean
+  }>(),
+  {
+    hideMaximizeButton: false
+  }
+)
+
+const router = useRouter()
 
 const address = props.device.address
 const channel = 'default'
@@ -94,8 +105,17 @@ onMounted(() => {
 <template>
   <div
     style="--el-bg-color: var(--color-muted) 100%"
-    class="flex-1 pr-4 pl-4 border rounded-xl bg-muted/50"
+    class="flex-1 pr-4 pl-4 border rounded-xl bg-muted/50 relative"
   >
+    <Button
+      v-if="!hideMaximizeButton"
+      variant="ghost"
+      size="icon"
+      class="absolute top-2 right-2 z-10"
+      @click="router.push(`/device/${address}/data-monitor`)"
+    >
+      <Maximize2 class="h-4 w-4" />
+    </Button>
     <el-auto-resizer>
       <template #default="{ height, width }">
         <el-table-v2
@@ -104,7 +124,6 @@ onMounted(() => {
           :data="data"
           :width="width"
           :height="height"
-          fixed
         />
       </template>
     </el-auto-resizer>
