@@ -19,7 +19,7 @@ const goBack = (): void => {
 </script>
 
 <template>
-  <div class="flex flex-col h-screen w-full">
+  <div class="flex flex-col w-full">
     <div class="flex items-center gap-2 p-2 border-b">
       <Button variant="ghost" size="icon" @click="goBack">
         <ArrowLeft class="h-4 w-4" />
