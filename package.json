@@ -1,6 +1,6 @@
 {
   "name": "cogmote",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "a client for remote experiment monitoring",
   "main": "./out/main/index.js",
   "author": "huyang",
