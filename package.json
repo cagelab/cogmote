@@ -53,7 +53,7 @@
     "@iconify/vue": "^5.0.0",
     "@types/node": "^22.18.1",
     "@vitejs/plugin-vue": "^6.0.1",
-    "electron": "^37.4.0",
+    "electron": "^40.0.0",
     "electron-builder": "^25.1.8",
     "electron-devtools-installer": "^4.0.0",
     "electron-vite": "^4.0.0",
