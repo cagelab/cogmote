@@ -42,7 +42,7 @@ jobs:
         if: matrix.os == 'macos-latest'
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.14'
 
       - name: Install Node.js
         uses: actions/setup-node@v4
