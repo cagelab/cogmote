@@ -57,7 +57,7 @@
     "electron-builder": "^26.0.0",
     "electron-devtools-installer": "^4.0.0",
     "electron-vite": "^5.0.0",
-    "eslint": "^9.34.0",
+    "eslint": "^10.0.0",
     "eslint-plugin-vue": "^10.4.0",
     "prettier": "^3.6.2",
     "typescript": "^5.9.2",
