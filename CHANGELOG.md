@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.11](https://github.com/cagelab/cogmote/compare/cogmote-v0.1.10...cogmote-v0.1.11) (2026-02-17)
+
+
+### Bug Fixes
+
+* **deps:** ⬆️ update dependency @vueuse/core to v14 ([#100](https://github.com/cagelab/cogmote/issues/100)) ([cdf14fd](https://github.com/cagelab/cogmote/commit/cdf14fd8686a4053dd7395633dd003aaee983794))
+* **deps:** ⬆️ update dependency lucide-vue-next to ^0.564.0 ([#88](https://github.com/cagelab/cogmote/issues/88)) ([658a143](https://github.com/cagelab/cogmote/commit/658a143acfe274de02971177282494272035f94f))
+* **deps:** ⬆️ update dependency lucide-vue-next to ^0.570.0 ([#103](https://github.com/cagelab/cogmote/issues/103)) ([5b872b5](https://github.com/cagelab/cogmote/commit/5b872b5ec484e23bdcb68ec40f3bceca3ce6e62a))
+* **deps:** ⬆️ update dependency vue-echarts to v8 ([#101](https://github.com/cagelab/cogmote/issues/101)) ([e6f7dde](https://github.com/cagelab/cogmote/commit/e6f7ddeb29ab0c8b702ce214d8db4cfe281b309a))
+* **deps:** ⬆️ update dependency vue-router to v5 ([#102](https://github.com/cagelab/cogmote/issues/102)) ([c2b8040](https://github.com/cagelab/cogmote/commit/c2b8040ac45f49577bbc14e7f547326da62a2880))
+
 ## [0.1.10](https://github.com/cagelab/cogmote/compare/cogmote-v0.1.9...cogmote-v0.1.10) (2026-02-16)
 
 
