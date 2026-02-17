@@ -70,7 +70,7 @@ importers:
         version: 2.6.0(vue@3.5.28(typescript@5.9.3))
       vue-router:
         specifier: ^4.5.1
-        version: 4.5.1(vue@3.5.28(typescript@5.9.3))
+        version: 4.6.4(vue@3.5.28(typescript@5.9.3))
       vue-sonner:
         specifier: ^2.0.8
         version: 2.0.9(@nuxt/kit@4.1.0(magicast@0.3.5))(@nuxt/schema@4.1.0)(nuxt@4.1.0(@parcel/watcher@2.5.6)(@types/node@22.18.1)(@vue/compiler-sfc@3.5.28)(cac@6.7.14)(db0@0.3.4)(encoding@0.1.13)(eslint@9.34.0(jiti@2.6.1))(ioredis@5.9.3)(lightningcss@1.30.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.57.1)(terser@5.44.0)(typescript@5.9.3)(vite@7.1.4(@types/node@22.18.1)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.0.6(typescript@5.9.3))(yaml@2.8.1))
@@ -5520,11 +5520,6 @@ packages:
     engines: {node: '>= 10.0.0', npm: '>= 5.0.0'}
     peerDependencies:
       vue: '>=3.0.0'
-
-  vue-router@4.5.1:
-    resolution: {integrity: sha512-ogAF3P97NPm8fJsE4by9dwSYtDwXIY1nFY9T6DyQnGHd1E2Da94w9JIolpe42LJGIl0DwOHBi8TcRPlPGwbTtw==}
-    peerDependencies:
-      vue: ^3.2.0
 
   vue-router@4.6.4:
     resolution: {integrity: sha512-Hz9q5sa33Yhduglwz6g9skT8OBPii+4bFn88w6J+J4MfEo4KRRpmiNG/hHHkdbRFlLBOqxN8y8gf2Fb0MTUgVg==}
@@ -11792,16 +11787,10 @@ snapshots:
     dependencies:
       vue: 3.5.28(typescript@5.9.3)
 
-  vue-router@4.5.1(vue@3.5.28(typescript@5.9.3)):
-    dependencies:
-      '@vue/devtools-api': 6.6.4
-      vue: 3.5.28(typescript@5.9.3)
-
   vue-router@4.6.4(vue@3.5.28(typescript@5.9.3)):
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.28(typescript@5.9.3)
-    optional: true
 
   vue-sonner@2.0.9(@nuxt/kit@4.1.0(magicast@0.3.5))(@nuxt/schema@4.1.0)(nuxt@4.1.0(@parcel/watcher@2.5.6)(@types/node@22.18.1)(@vue/compiler-sfc@3.5.28)(cac@6.7.14)(db0@0.3.4)(encoding@0.1.13)(eslint@9.34.0(jiti@2.6.1))(ioredis@5.9.3)(lightningcss@1.30.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.57.1)(terser@5.44.0)(typescript@5.9.3)(vite@7.1.4(@types/node@22.18.1)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(yaml@2.8.1))(vue-tsc@3.0.6(typescript@5.9.3))(yaml@2.8.1)):
     optionalDependencies:
