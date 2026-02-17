@@ -36,7 +36,7 @@ jobs:
 
     steps:
       - name: Check out Git repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python (macOS only)
         if: matrix.os == 'macos-latest'
