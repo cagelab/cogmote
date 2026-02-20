@@ -49,7 +49,7 @@ importers:
         version: 3.0.4(typescript@5.9.3)(vue@3.5.28(typescript@5.9.3))
       reka-ui:
         specifier: ^2.5.0
-        version: 2.8.0(vue@3.5.28(typescript@5.9.3))
+        version: 2.8.2(vue@3.5.28(typescript@5.9.3))
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.5.0
@@ -2577,8 +2577,8 @@ packages:
     resolution: {integrity: sha512-9u/XQ1pvrQtYyMpZe7DXKv2p5CNvyVwzUB6uhLAnQwHMSgKMBR62lc7AHljaeteeHXn11XTAaLLUVZYVZyuRBQ==}
     engines: {node: '>= 20.19.0'}
 
-  reka-ui@2.8.0:
-    resolution: {integrity: sha512-N4JOyIrmDE7w2i06WytqcV2QICubtS2PsK5Uo8FIMAgmO13KhUAgAByP26cXjjm2oF/w7rTyRs8YaqtvaBT+SA==}
+  reka-ui@2.8.2:
+    resolution: {integrity: sha512-8lTKcJhmG+D3UyJxhBnNnW/720sLzm0pbA9AC1MWazmJ5YchJAyTSl+O00xP/kxBmEN0fw5JqWVHguiFmsGjzA==}
     peerDependencies:
       vue: '>= 3.2.0'
 
@@ -5653,7 +5653,7 @@ snapshots:
 
   readdirp@5.0.0: {}
 
-  reka-ui@2.8.0(vue@3.5.28(typescript@5.9.3)):
+  reka-ui@2.8.2(vue@3.5.28(typescript@5.9.3)):
     dependencies:
       '@floating-ui/dom': 1.7.5
       '@floating-ui/vue': 1.1.10(vue@3.5.28(typescript@5.9.3))
