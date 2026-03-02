@@ -33,7 +33,7 @@
     "electron-updater": "^6.6.2",
     "element-plus": "^2.11.1",
     "ky": "^1.9.1",
-    "lucide-vue-next": "^0.575.0",
+    "lucide-vue-next": "^0.576.0",
     "pinia": "^3.0.3",
     "reka-ui": "^2.5.0",
     "tailwind-merge": "^3.3.1",
