@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.12](https://github.com/cagelab/cogmote/compare/cogmote-v0.1.11...cogmote-v0.1.12) (2026-03-02)
+
+
+### Bug Fixes
+
+* **deps:** ⬆️ update dependency lucide-vue-next to ^0.576.0 ([#132](https://github.com/cagelab/cogmote/issues/132)) ([dbc13d7](https://github.com/cagelab/cogmote/commit/dbc13d7f13c7bb56f5134333864dff05537c3044))
+
 ## [0.1.11](https://github.com/cagelab/cogmote/compare/cogmote-v0.1.10...cogmote-v0.1.11) (2026-02-19)
 
 
