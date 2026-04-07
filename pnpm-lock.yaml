@@ -49,7 +49,7 @@ importers:
         version: 3.0.4(typescript@6.0.2)(vue@3.5.32(typescript@6.0.2))
       reka-ui:
         specifier: ^2.5.0
-        version: 2.9.4(vue@3.5.32(typescript@6.0.2))
+        version: 2.9.5(vue@3.5.32(typescript@6.0.2))
       tailwind-merge:
         specifier: ^3.3.1
         version: 3.5.0
@@ -1522,8 +1522,8 @@ packages:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
     engines: {node: '>= 0.4'}
 
-  defu@6.1.6:
-    resolution: {integrity: sha512-f8mefEW4WIVg4LckePx3mALjQSPQgFlg9U8yaPdlsbdYcHQyj9n2zL2LJEA52smeYxOvmd/nB7TpMtHGMTHcug==}
+  defu@6.1.7:
+    resolution: {integrity: sha512-7z22QmUWiQ/2d0KkdYmANbRUVABpZ9SNYyH5vx6PZ+nE5bcC0l7uFvEfHlyld/HcGBFTL536ClDt3DEcSlEJAQ==}
 
   delayed-stream@1.0.0:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
@@ -2583,8 +2583,8 @@ packages:
     resolution: {integrity: sha512-9u/XQ1pvrQtYyMpZe7DXKv2p5CNvyVwzUB6uhLAnQwHMSgKMBR62lc7AHljaeteeHXn11XTAaLLUVZYVZyuRBQ==}
     engines: {node: '>= 20.19.0'}
 
-  reka-ui@2.9.4:
-    resolution: {integrity: sha512-Xz8yKl+5SwhzZU6lxTX9uCWydsv9+4zyYFv/LL+paa+sqnYZohdFqgkFxtroEy75fdoyFIlCXZK1VtSF9YVESA==}
+  reka-ui@2.9.5:
+    resolution: {integrity: sha512-6cZGIMgEeslpFLJ7IihaCSMPp1cJgl2eDkZ2vBMdl+HPUVBaV/iDPMWu3abT2KUkj1lir+oyHq5KelOTT9OheQ==}
     peerDependencies:
       vue: '>= 3.4.0'
 
@@ -4510,7 +4510,7 @@ snapshots:
       object-keys: 1.1.1
     optional: true
 
-  defu@6.1.6: {}
+  defu@6.1.7: {}
 
   delayed-stream@1.0.0: {}
 
@@ -5690,7 +5690,7 @@ snapshots:
 
   readdirp@5.0.0: {}
 
-  reka-ui@2.9.4(vue@3.5.32(typescript@6.0.2)):
+  reka-ui@2.9.5(vue@3.5.32(typescript@6.0.2)):
     dependencies:
       '@floating-ui/dom': 1.7.6
       '@floating-ui/vue': 1.1.11(vue@3.5.32(typescript@6.0.2))
@@ -5700,7 +5700,7 @@ snapshots:
       '@vueuse/core': 14.2.1(vue@3.5.32(typescript@6.0.2))
       '@vueuse/shared': 14.2.1(vue@3.5.32(typescript@6.0.2))
       aria-hidden: 1.2.6
-      defu: 6.1.6
+      defu: 6.1.7
       ohash: 2.0.11
       vue: 3.5.32(typescript@6.0.2)
     transitivePeerDependencies:
