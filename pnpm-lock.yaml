@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@electron-toolkit/preload':
         specifier: ^3.0.2
-        version: 3.0.2(electron@41.3.0)
+        version: 3.0.2(electron@41.5.0)
       '@electron-toolkit/utils':
         specifier: ^4.0.0
-        version: 4.0.0(electron@41.3.0)
+        version: 4.0.0(electron@41.5.0)
       '@tailwindcss/vite':
         specifier: ^4.1.12
         version: 4.2.4(vite@8.0.10(@types/node@24.12.2)(esbuild@0.27.3)(jiti@2.6.1)(yaml@2.8.3))
@@ -98,7 +98,7 @@ importers:
         version: 6.0.6(vite@8.0.10(@types/node@24.12.2)(esbuild@0.27.3)(jiti@2.6.1)(yaml@2.8.3))(vue@3.5.33(typescript@6.0.3))
       electron:
         specifier: ^41.0.0
-        version: 41.3.0
+        version: 41.5.0
       electron-builder:
         specifier: ^26.0.0
         version: 26.8.1(electron-builder-squirrel-windows@26.8.1)
@@ -1610,8 +1610,8 @@ packages:
     resolution: {integrity: sha512-bO3y10YikuUwUuDUQRM4KfwNkKhnpVO7IPdbsrejwN9/AABJzzTQ4GeHwyzNSrVO+tEH3/Np255a3sVZpZDjvg==}
     engines: {node: '>=8.0.0'}
 
-  electron@41.3.0:
-    resolution: {integrity: sha512-2Q5aeocmFdeheZGDUTrAvSR3t+n0c3d104AJWWEnt7syJU0tE4VdibMYaPtQ47QuXSoUf0/xSsfUUvu/uSXIfg==}
+  electron@41.5.0:
+    resolution: {integrity: sha512-x9j9//PubUA4EjDtQbZhtk3prolandqCKgit0uCIqc1jb8FTskPbnJtxcDFB1aejczJcuERgjPixBUaMwoWyJg==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
 
@@ -3258,17 +3258,17 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@electron-toolkit/preload@3.0.2(electron@41.3.0)':
+  '@electron-toolkit/preload@3.0.2(electron@41.5.0)':
     dependencies:
-      electron: 41.3.0
+      electron: 41.5.0
 
   '@electron-toolkit/tsconfig@2.0.0(@types/node@24.12.2)':
     dependencies:
       '@types/node': 24.12.2
 
-  '@electron-toolkit/utils@4.0.0(electron@41.3.0)':
+  '@electron-toolkit/utils@4.0.0(electron@41.5.0)':
     dependencies:
-      electron: 41.3.0
+      electron: 41.5.0
 
   '@electron/asar@3.4.1':
     dependencies:
@@ -4657,7 +4657,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron@41.3.0:
+  electron@41.5.0:
     dependencies:
       '@electron/get': 2.0.3
       '@types/node': 24.12.2
