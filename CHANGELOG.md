@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.14](https://github.com/cagelab/cogmote/compare/cogmote-v0.1.13...cogmote-v0.1.14) (2026-09-02)
+
+
+### Bug Fixes
+
+* **deps:** ⬆️ update dependency ky to v2 ([#174](https://github.com/cagelab/cogmote/issues/174)) ([65f69ba](https://github.com/cagelab/cogmote/commit/65f69ba575f542dd8184eefd8953813f88b4d307))
+* **deps:** ⬆️ update dependency lucide-vue-next to v1 ([#160](https://github.com/cagelab/cogmote/issues/160)) ([57c67c8](https://github.com/cagelab/cogmote/commit/57c67c8be33e025169a5b15deed9eb2f33cc975e))
+* **deps:** ⬆️ update dependency virtua to ^0.49.0 ([#167](https://github.com/cagelab/cogmote/issues/167)) ([be8f1fb](https://github.com/cagelab/cogmote/commit/be8f1fbbd19c37c1d829810b9ecf3acb56b16a41))
+
 ## [0.1.13](https://github.com/cagelab/cogmote/compare/cogmote-v0.1.12...cogmote-v0.1.13) (2026-03-04)
 
 
